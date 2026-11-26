@@ -40,22 +40,15 @@ Install the required dependencies with:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
 ---
 
 ## Check Out the Starter Code
 
-When you accepted the assignment, GitHub created a clone of the assignment
-template for you at:
+Open the assignment link in D2L and accept it in Classroom50. Open your assigned repository in the INFO-523-S27 organization.
 
-```
-https://github.com/INFO-511-S25/classification-hw-03-<your-username>
-```
-
-It also set up a separate `feedback` branch and a
-[feedback pull request](https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/leave-feedback-with-pull-requests)
-that will allow the instructional team to give you feedback on your work.
+Leave the feedback pull request open so the instructional team can comment on your work.
 
 ---
 
@@ -77,9 +70,11 @@ This provides a fully configured environment with all dependencies installed.
 
 If you prefer working locally, clone the repository:
 
+In your assigned repository, select **Code → HTTPS** and copy the clone URL. Replace `PASTE_CLONE_URL_HERE` with that URL.
+
 ```bash
-git clone https://github.com/INFO-511-S25/classification-hw-03-<your-username>.git
-cd classification-hw-03-<your-username>
+git clone PASTE_CLONE_URL_HERE hw-03
+cd hw-03
 ```
 
 You should do all your work in the default branch, `main`.
